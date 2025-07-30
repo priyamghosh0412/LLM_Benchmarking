@@ -1,0 +1,7 @@
+models:
+  gemma-2b:
+    loader: gguf_loader
+    max_tokens: 50
+    model_path: models\gemma-2b-it.Q4_K_M.gguf
+    name: Gemma-2b
+    prompt_template: what is the full form of GGUF
